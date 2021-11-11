@@ -7,7 +7,7 @@ import axios from  'axios';
 
 function App() {
 
-    const currencyURL = 'http://data.fixer.io/api/latest?access_key=07696e1a379f7034b73ae179d1283caf';
+    const currencyURL = '/api/latest?access_key=07696e1a379f7034b73ae179d1283caf';
 
     const [amount1, setAmount1] = useState(1);
     const [amount2, setAmount2] = useState(1);
