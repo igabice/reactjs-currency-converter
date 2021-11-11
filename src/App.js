@@ -24,7 +24,7 @@ function App() {
 
     useEffect(() =>{
         if (!!rates){
-            handleAmount1Change(1)
+            handleAmount1Change(1);
         }
 
     }, [rates])
@@ -33,6 +33,7 @@ function App() {
     function format(num){
         return num.toFixed(4);
     }
+
     function handleAmount1Change(amount1) {
         console.log(amount1 * rates[currency2]/rates[currency1])
         setAmount2(format(amount1 * rates[currency2]/rates[currency1]))
