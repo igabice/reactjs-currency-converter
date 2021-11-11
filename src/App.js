@@ -22,12 +22,12 @@ function App() {
         });
     }, []);
 
-    useEffect(() =>{
-        if (!!rates){
-            handleAmount1Change(1);
-        }
-
-    }, [rates])
+    // useEffect(() =>{
+    //     if (!!rates){
+    //         handleAmount1Change(1);
+    //     }
+    //
+    // }, [rates])
 
 
     function format(num){
