@@ -10,7 +10,7 @@ This project was built with:
 
 
 <p align="middle">
-  <img src="https://raw.githubusercontent.com/igabice/reactjs-currency-converter/master/image.jpg" width="800"/>
+  <img src="https://raw.githubusercontent.com/igabice/reactjs-currency-converter/master/image.png" width="800"/>
 </p>
 
 
